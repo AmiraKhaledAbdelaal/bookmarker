@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>bookmarker</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bookmarker</h1>
+    </div>
+    <div class="container title">
+        <div class=" bookmarker d-flex justify-content-center">
+            <i class="fa-solid fa-bookmark mt-2"></i>
+            <h2>Bookmark your favorite sites</h2>
+            <i class="fa-solid fa-bookmark mt-2"></i>
+        </div>
+    </div>
+    <div class="container">
+        <label class="my-2 fw-bold"> <i class="fa-solid fa-book-bookmark pe-2"></i> site name</label>
+        <input id="bookname" type="text" placeholder="bookmarkname" class="form-control mb-3">
+        <label class="my-2 fw-bold">
+            <i class="fa-solid fa-link pe-2"></i> site url
+        </label>
+        <input id="url" type="text" placeholder="website url" class="form-control mb-3">
+        <button id="btn1" class="btn btn1 px-5 my-4">submit</button>
+    </div>
+    <div class="container">
+        <table class="table my-5 text-center">
+            <thead>
+                <th>index</th>
+                <th>website name</th>
+                <th>visit</th>
+                <th>delete</th>
+            </thead>
+            <tbody id="demo">
+
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
